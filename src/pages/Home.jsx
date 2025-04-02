@@ -4,13 +4,8 @@ import {useNavigate } from "react-router-dom";
   const Home = () => {
   const navigate = useNavigate();
 
-<<<<<<< HEAD
-  const handleNavigate = () => {
-    navigate("/owner");
-=======
   const handleNavigateUser = () => {
     navigate("/about");
->>>>>>> a93ce968d7ae8d8dd467d327078a74538edbfc4f
   };
   const handleNavigateAdmin = () => {
     navigate("/contact");
