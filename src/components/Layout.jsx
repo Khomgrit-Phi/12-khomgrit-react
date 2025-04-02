@@ -12,18 +12,8 @@ const Layout = () => {
             </Link>
           </li>
           <li>
-            <Link to="/about" className="hover:text-yellow-400">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" className="hover:text-yellow-400">
-              Contact
-            </Link>
-          </li>
-          <li>
-            <Link to="/products" className="hover:text-yellow-400">
-              Products
+            <Link to="/owner" className="hover:text-yellow-400">
+              Owner
             </Link>
           </li>
         </ul>
