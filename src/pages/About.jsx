@@ -5,8 +5,8 @@ const About = () => {
     <div className="text-center p-4 bg-white rounded-md shadow-md">
       <h1 className="text-2xl font-bold mb-2">12-Khomgrit-Ton</h1>
       <div className="flex w-3/6" >
-      <img src="./src/4.png" alt="profile image" className="mt-4"/>
-      <img src="./src/2.png" alt="profile image" className="mt-4"/>
+      <img src ="https://i.postimg.cc/sfmFkpHn/4.png" alt="profile image" className="mt-4"/>
+      <img src="https://i.postimg.cc/L6WWSvtV/2.png" alt="profile image" className="mt-4"/>
       
       </div>
       <p className="font-bold text-gray-700 mt-8">
