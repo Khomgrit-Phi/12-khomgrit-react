@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-import Products from "./pages/Products";
+import Products from "./pages/Owner";
 import ProductDetail from "./pages/ProductDetail";
 import Owner from "./pages/Owner";
 
@@ -20,11 +20,11 @@ const router = createBrowserRouter([
       { path: "owner", element: <Owner /> },
       { path: "contact", element: <Contact /> },
       {
-        path: "products",
-        element: <Products />,
+        path: "owner",
+        element: <Owner />,
       },
       {
-        path: "products/:productId",
+        path: "owner",
         element: <ProductDetail />,
       },
     ],

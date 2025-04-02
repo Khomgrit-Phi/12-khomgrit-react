@@ -3,17 +3,19 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col">
-      <nav className="bg-teal-500 text-white p-4 shadow-md">
-        <ul className="flex gap-4 justify-center">
+    <div className="min-h-screen bg-white flex flex-col">
+      <nav className="bg-[#334DD8] text-white p-4 shadow-md">
+        <ul className="font-bold text-l flex gap-4 justify-end mr-8">
           <li>
-            <Link to="/" className="hover:text-yellow-400">
+            <Link to="/" className="hover:text-blue-500">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/owner" className="hover:text-yellow-400">
-              Owner
+
+            <Link to="/owner" className="hover:text-blue-500">
+            Owner
+
             </Link>
           </li>
         </ul>
