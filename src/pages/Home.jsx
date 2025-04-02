@@ -1,30 +1,34 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 
-const Home = () => {
+  const Home = () => {
   const navigate = useNavigate();
 
-  const handleNavigate = () => {
+  const handleNavigateUser = () => {
     navigate("/about");
+  };
+  const handleNavigateAdmin = () => {
+    navigate("/contact");
   };
 
   return (
     <div className="text-center">
-      <h1 className="text-3xl font-bold mb-4">Welcome to Our App</h1>
+      <h1 className="text-3xl font-bold m-8">Generation Thailand <br /> React Assessment</h1>
+      <div className="flex justify-between gap-8 mt-4">
       <button
-        onClick={handleNavigate}
-        className="px-4 py-2 bg-teal-500 text-white rounded-md hover:bg-teal-700 transition"
+        onClick={handleNavigateUser}
+        className="font-bold h-14 px-4 py-2 bg-[#334DD8] text-white rounded-xl hover:bg-[#2639A1] transition"
       >
-        Go to About
+        User Home Sector
       </button>
-      <br />
-      <br />
-      <Link
-        to="/contact"
-        className="text-teal-600 underline hover:text-teal-800"
+      <button
+        onClick={handleNavigateAdmin}
+        className="font-bold px-4 py-2 bg-[#334DD8] text-white rounded-xl hover:bg-[#2639A1] transition"
       >
-        Go to Contact
-      </Link>
+        Admin Home Sector
+      </button>
+      </div>
+
     </div>
   );
 };
